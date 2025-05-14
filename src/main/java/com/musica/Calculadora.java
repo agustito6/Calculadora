@@ -33,11 +33,13 @@ public class Calculadora {
             int resultado = a + b;
             System.out.println("Resultado: " + resultado);
             return resultado;
+
         } else if (operador.equals("restar")) {
             System.out.println(" Iniciando operación: RESTAR");
             int resultado = a - b;
             System.out.println("Resultado: " + resultado);
             return resultado;
+
         } else if (operador.equals("multiplicar")) {
             System.out.println(" Iniciando operación: MULTIPLICAR");
             int resultado = a * b;
