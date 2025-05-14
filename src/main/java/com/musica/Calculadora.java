@@ -29,6 +29,7 @@ public class Calculadora {
 
     public int operar(String operador, int a, int b) {
         if (operador.equals("sumar")) {
+
             System.out.println(" Iniciando operación: SUMAR");
             int resultado = a + b;
             System.out.println("Resultado: " + resultado);
